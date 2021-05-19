@@ -22,9 +22,26 @@ import android.content.Intent;
 import com.qmuiteam.qmui.arch.QMUIActivity;
 import com.qmuiteam.qmui.util.QMUIDisplayHelper;
 
+import static java.security.AccessController.getContext;
+
 @SuppressLint("Registered")
 public class BaseActivity extends QMUIActivity {
 
+    @Override
+    protected int backViewInitOffset() {
+        return QMUIDisplayHelper.dp2px(BaseActivity.this
+                , 100);
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+//        QDUpgradeManager.getInstance(getContext()).runUpgradeTipTaskIfExist(this);
+    }
+
+//    @Override
+//    public Intent onLastActivityFinish() {
+//        return new Intent(this, QDMainActivity.class);
+//    }
 
 }

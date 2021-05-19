@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
 <!--    <style name="Theme.StatusbarStudy" parent="Theme.MaterialComponents.Light.NoActionBar">-->
-    <style name="Theme.StatusbarStudy" parent="QMUI.Compat">
+    <style name="Theme.StatusbarStudy" parent="QMUI.Compat.NoActionBar">
         <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/white</item>
         <item name="colorOnPrimary">@color/white</item>
