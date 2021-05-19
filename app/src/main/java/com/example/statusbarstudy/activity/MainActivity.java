@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void test3(View view) {
-
+        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        startActivity(intent);
     }
 
     public void test4(View view) {

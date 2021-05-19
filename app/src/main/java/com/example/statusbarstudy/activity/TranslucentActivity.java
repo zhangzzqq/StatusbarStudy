@@ -19,18 +19,12 @@ package com.example.statusbarstudy.activity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Toast;
 
 import com.example.statusbarstudy.R;
-import com.example.statusbarstudy.base.BaseActivity;
+import com.qmuiteam.qmui.arch.QMUIActivity;
 import com.qmuiteam.qmui.arch.annotation.LatestVisitRecord;
-import com.qmuiteam.qmui.arch.record.RecordArgumentEditor;
-import com.qmuiteam.qmui.skin.QMUISkinManager;
-import com.qmuiteam.qmui.util.QMUIStatusBarHelper;
 import com.qmuiteam.qmui.widget.QMUITopBarLayout;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * 沉浸式状态栏的调用示例。
@@ -38,7 +32,7 @@ import butterknife.ButterKnife;
  */
 
 @LatestVisitRecord
-public class TranslucentActivity extends BaseActivity {
+public class TranslucentActivity extends QMUIActivity {
 
     QMUITopBarLayout mTopBar;
 
@@ -64,6 +58,20 @@ public class TranslucentActivity extends BaseActivity {
             }
         });
         mTopBar.setTitle("沉浸式状态栏示例");
+
+        mTopBar.addRightImageButton(R.mipmap.icon_topbar_overflow, R.id.topbar_right_change_button)
+                .setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+//                        showBottomSheet();
+                    }
+                });
+        View view = LayoutInflater.from(TranslucentActivity.this).
+                inflate(R.layout.layout_image, null);
+
+        mTopBar.addRightView(view,R.id.topbar_right_view);
+
+
     }
 
 
