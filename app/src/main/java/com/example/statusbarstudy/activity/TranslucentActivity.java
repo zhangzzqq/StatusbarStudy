@@ -39,8 +39,7 @@ public class TranslucentActivity extends QMUIActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-//        View root = LayoutInflater.from(this).inflate(R.layout.activity_translucent, null);
+//      View root = LayoutInflater.from(this).inflate(R.layout.activity_translucent, null);
       setContentView(R.layout.activity_translucent);
         mTopBar = findViewById(R.id.topbar);
 //        QMUISkinManager skinManager = QMUISkinManager.defaultInstance(this);

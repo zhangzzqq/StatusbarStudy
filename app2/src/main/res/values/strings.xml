@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">IM</string>
+
+
+    <string name="toast_copy_ok">内容已复制</string>
+    <string name="toast_modify_ok">更改成功</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="chat">主页</string>
+    <string name="contacts">联系人</string>
+    <string name="mine">应用信息</string>
+
+    <string name="pkg">包名：</string>
+    <string name="appKey">AppKey</string>
+    <string name="imei">IMEI</string>
+    <string name="deviceid">Device ID</string>
+    <string name="version">版本号</string>
+    <string name="text_info">111</string>
+    <string name="desc">说明</string>
+    <string name="desc_2">AppKey：极光平台应用的唯一标识。</string>
+    <string name="share">极光分享</string>
+    <string name="link">极光魔链</string>
+    <string name="verify">极光认证</string>
+    <string name="push">极光推送</string>
+    <string name="union">极光联盟</string>
+
+    <string name="permission_bluetooth_des">请允许使用蓝牙，以便连接蓝牙key进行数据签名。</string>
+    <string name="permission_camera_des">请允许使用相机，以便更好地使用扫一扫、OCR卡号识别、个人信息更新上传证件等。</string>
+    <string name="permission_storage_des">请允许使用相册，以便扫一扫识别本地图片及在转账服务中保存收款名片与电子回单等信息。</string>
+    <string name="permission_contacts_des">请允许使用通讯录，以便自动回填手机号码转账信息。</string>
+    <string name="permission_face_id_des">请允许使用Face ID，以便支持人脸识别与生物ID登录验证。</string>
+    <string name="permission_location_des">请允许使用定位，以便更好地支持版本切换、网点查询、网点评价服务。</string>
+    <string name="permission_microphone_des">请允许使用麦克风，以便支持语音功能和连接音频key进行数据签名。</string>
+    <!--    <string name="permission_storage_des">请允许使用存储，以便确保登录App后正常运行、缓存图文及进行统计。</string>-->
+    <string name="permission_phone_des">请允许使用电话，以便一键呼叫%s。</string>
+    <string name="permission_sms_des">请允许使用短信，以便短信分享链接及快速回填短信验证码。</string>
+
+
+
+</resources>
